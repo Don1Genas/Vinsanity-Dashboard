@@ -1,7 +1,7 @@
 const Header = () => {
     return(
         <div className = "header">
-            <h1> Delta Airlines Analytics Dashboard </h1>
+            <h1> Vinsanity Dashboard </h1>
         </div>
 
     )     
@@ -11,7 +11,7 @@ const Reviews = () => {
     return(
         <div className = "container">
             <h2>Reviews</h2>
-            <p className = "para">"I love to fly Delta Business class because the service is amazing everytime.  Recently, my Mother and I travelled to TLV. The staff members were friendly and went above and beyond to ensure that our flight was comfortable and relaxing. I find the meals to be delicious and we always get a good choice of entrees. They also have a great selection of wines to complement the meals.</p>
+            <p className = "para">"Vince Carter is one of the most amazing, high-flying basketball player ever!!"</p>
         </div>
     )
 };
@@ -19,7 +19,7 @@ const Reviews = () => {
 const AverageRating = () => {
     return(
         <div className = "container2">
-            <h2>Average Customer Rating</h2>
+            <h2>2K Player Rating</h2>
             <ul className = "list2">
                 <li>4.92</li>
             </ul>
@@ -30,7 +30,17 @@ const AverageRating = () => {
 const WebsiteVisitors = () => {
     return(
         <div className = "container3">
-            <h3>Most Popular Departures</h3>
+            <h3>Highest Rated Dunks In The History Of The NBA</h3><br></br>
+            <div>
+            <h4 className="dunks">
+            <ul>
+                <li>Windmill</li>
+                <li>360</li>
+            </ul>
+            </h4>
+            </div>
+            <img src="https://i.cbc.ca/1.2840833.1416425051!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/carter-vince-1999-620.jpg"></img>
+
         </div>
     )
 };
@@ -43,19 +53,19 @@ const Menu = () => {
                 <li>Dashboard</li>
                 <br></br>
                 <br></br>
-                <li>Flight Specials</li>
+                <li>Teams</li>
                 <br></br>
                 <br></br>
-                <li>Reviews</li>
+                <li>2000 Dunk Contest</li>
                 <br></br>
                 <br></br>
-                <li>Customers</li>
+                <li>Game Winners</li>
                 <br></br>
                 <br></br>
-                <li>Followers</li>
+                <li>All-Star Games</li>
                 <br></br>
                 <br></br>
-                <li>Special Deals</li>
+                <li>Top 10 Plays</li>
             </ul>
         </div>
     )
@@ -64,13 +74,13 @@ const Menu = () => {
 const Analyis = () => {
     return(
         <div className = "container4">
-            <h2>Flight Analysis</h2>
+            <h2>Career Stats</h2>
             <ul className = "list2">
-                <li>Departures: 120</li>
+                <li>Points: --</li>
                 <br></br>
-                <li>Delays: 17</li>
+                <li>Assist: --</li>
                 <br></br>
-                <li>Cancellations: 26</li>
+                <li>Rebounds: --</li>
             </ul>
         </div>
     )
